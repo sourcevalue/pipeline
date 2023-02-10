@@ -8,7 +8,7 @@
     pipejs.window.remove();
     (function(){pipejs = document.createElement("script");pipejs.src="https://chezmarklets--chezcoder.repl.co/scripts/pipe.js";document.body.appendChild(pipejs)}());
   }
-  const version = "1.1.6";
+  const version = "0.9.0";
   const jversion = "5";
   const year = new Date().getFullYear();
   var documentEl = document.body.parentElement;
@@ -54,7 +54,7 @@
 
   pipejs.editorStdout = document.createElement("div");
   pipejs.editorStdout.id = "pipejs_editor_stdout";
-  pipejs.editorStdout.innerHTML = `PipeJs v${version} (c) ${year} - ${year + 1} | <a href="https://repl.it/@ChezCoder" target="_blank" style=\"background:transparent;color:white;\">@ChezCoder</a><br>JavaScript v${jversion}<br><span style=\"color:orange;background:transparent;\">&gt; </span> `;
+  pipejs.editorStdout.innerHTML = `PipeJs v${version} | SafeSchool Terminal<br>JavaScript v${jversion}<br><span style=\"color:orange;background:transparent;\">&gt; </span> `;
   pipejs.editorStdout.style = "background:transparent;color:rgb(0,255,0);font-family:monospace;font-weight:bold;font-size:15px;display:inline;";
 
   pipejs.editorPrompt = document.createElement("input");
